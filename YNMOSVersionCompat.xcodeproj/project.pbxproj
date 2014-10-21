@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D6FD37A19F67CAC00486DD3 /* YNMOSVersionCompat.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D6FD37919F67CAC00486DD3 /* YNMOSVersionCompat.h */; };
-		9D6FD37C19F67CAC00486DD3 /* YNMOSVersionCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6FD37B19F67CAC00486DD3 /* YNMOSVersionCompat.m */; };
+		9D6FD38F19F67CF000486DD3 /* NSProcessInfo+OSVersionCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6FD38E19F67CF000486DD3 /* NSProcessInfo+OSVersionCompat.m */; };
+		9D6FD39019F67CF000486DD3 /* NSProcessInfo+OSVersionCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6FD38E19F67CF000486DD3 /* NSProcessInfo+OSVersionCompat.m */; };
+		9D6FD39219F6A97100486DD3 /* NSProcessInfo+OSVersionCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6FD39119F6A97100486DD3 /* NSProcessInfo+OSVersionCompat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +19,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				9D6FD37A19F67CAC00486DD3 /* YNMOSVersionCompat.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,10 +26,11 @@
 
 /* Begin PBXFileReference section */
 		9D6FD37619F67CAC00486DD3 /* libYNMOSVersionCompat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYNMOSVersionCompat.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D6FD37919F67CAC00486DD3 /* YNMOSVersionCompat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YNMOSVersionCompat.h; sourceTree = "<group>"; };
-		9D6FD37B19F67CAC00486DD3 /* YNMOSVersionCompat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YNMOSVersionCompat.m; sourceTree = "<group>"; };
 		9D6FD38119F67CAC00486DD3 /* YNMOSVersionCompatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNMOSVersionCompatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6FD38419F67CAC00486DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D6FD38D19F67CF000486DD3 /* NSProcessInfo+OSVersionCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProcessInfo+OSVersionCompat.h"; sourceTree = "<group>"; };
+		9D6FD38E19F67CF000486DD3 /* NSProcessInfo+OSVersionCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProcessInfo+OSVersionCompat.m"; sourceTree = "<group>"; };
+		9D6FD39119F6A97100486DD3 /* NSProcessInfo+OSVersionCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProcessInfo+OSVersionCompat.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +72,8 @@
 		9D6FD37819F67CAC00486DD3 /* YNMOSVersionCompat */ = {
 			isa = PBXGroup;
 			children = (
-				9D6FD37919F67CAC00486DD3 /* YNMOSVersionCompat.h */,
-				9D6FD37B19F67CAC00486DD3 /* YNMOSVersionCompat.m */,
+				9D6FD38D19F67CF000486DD3 /* NSProcessInfo+OSVersionCompat.h */,
+				9D6FD38E19F67CF000486DD3 /* NSProcessInfo+OSVersionCompat.m */,
 			);
 			path = YNMOSVersionCompat;
 			sourceTree = "<group>";
@@ -81,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				9D6FD38319F67CAC00486DD3 /* Supporting Files */,
+				9D6FD39119F6A97100486DD3 /* NSProcessInfo+OSVersionCompat.m */,
 			);
 			path = YNMOSVersionCompatTests;
 			sourceTree = "<group>";
@@ -180,7 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D6FD37C19F67CAC00486DD3 /* YNMOSVersionCompat.m in Sources */,
+				9D6FD38F19F67CF000486DD3 /* NSProcessInfo+OSVersionCompat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +190,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6FD39019F67CF000486DD3 /* NSProcessInfo+OSVersionCompat.m in Sources */,
+				9D6FD39219F6A97100486DD3 /* NSProcessInfo+OSVersionCompat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -261,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
