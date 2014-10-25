@@ -1,0 +1,2 @@
+language: objective-c
+script: xcodebuild -scheme YNMOSVersionCompatTests -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.0' -destination 'platform=iOS Simulator,name=iPhone 5s,OS=7.1' test
