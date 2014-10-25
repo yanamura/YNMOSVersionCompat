@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3956E276-F1A8-4757-AEE2-83159F412489</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YNMOSVersionCompat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>19EB2E2D0CB917593A48E3687AAFDD5F93A33EFF</key>
+		<string>https://github.com/yanamura3/YNMOSVersionCompat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YNMOSVersionCompat.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>19EB2E2D0CB917593A48E3687AAFDD5F93A33EFF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yanamura3/YNMOSVersionCompat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>19EB2E2D0CB917593A48E3687AAFDD5F93A33EFF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>19EB2E2D0CB917593A48E3687AAFDD5F93A33EFF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YNMOSVersionCompat</string>
+		</dict>
+	</array>
+</dict>
+</plist>
